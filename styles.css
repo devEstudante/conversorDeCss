@@ -1,0 +1,60 @@
+.content {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content > h1 {
+    position: relative;
+    top: 5rem;
+}
+
+.teste {
+    width: 100%;
+    height: 500px;
+    min-height: 100vh;
+}
+
+#input {
+    text-align: center;
+    padding: 2px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.teste > button {
+    background-color: #DC3545;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #212529;
+    padding: 5px 10px;
+    margin-top: 2rem;
+    transition-duration: .5s;
+}
+
+.teste > button:hover {
+    background-color: #212529;
+    color: #DC3545;
+    border: 1px solid #DC3545;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+#res {
+    margin-top: 20px;
+    font-size: 15;
+    background-color: #212529;
+    color: #20c6aa;
+    font-weight: 800;
+    text-shadow: 0 0 10px #20c6aa81;
+}
