@@ -10,6 +10,6 @@ function teste() {
     } else{
         var converter = parseFloat(receiveInput)
 
-        resultado.innerHTML = (`O valor de ${converter} rem é equivalente á ${ converter * px}`)
+        resultado.innerHTML = (`O valor de ${converter} rem é equivalente á ${ converter * px} px`)
     } 
 }
