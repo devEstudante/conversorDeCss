@@ -6,7 +6,7 @@ function teste() {
     var receiveInput = input.value
 
     if(!receiveInput) {
-        window.alert('Impossível calcular, digite um núemro por favor.')
+        window.alert('Impossível calcular, digite um número por favor.')
     } else{
         var converter = parseFloat(receiveInput)
 
